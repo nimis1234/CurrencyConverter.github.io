@@ -1,0 +1,10 @@
+/* Background container to cover full height */
+.bg-div {
+  background-image: url("https://www.shutterstock.com/image-photo/blue-money-business-graph-finance-600nw-2469272775.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,94 @@
+/* Wrapper to center the content inside */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+  padding: 80px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 36px;
+  width: 100%;
+  background-color: #cfc3c3;
+  margin-top: -20px;
+}
+
+.sub-div {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.currency-label {
+  text-align: right;
+}
+
+.sub-div label {
+  color: rgb(22, 110, 241);
+}
+
+.inp-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.input-field {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.select-div {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.select-field {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 120px;
+}
+/* Container for the button, visually joining the two sections */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px; /* Pull the button closer to the divs */
+  margin-bottom: -40px; /* Pull the button closer to the divs */
+}
+
+/* Button Styling */
+.primary-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  z-index: 1; /* Ensure the button is above the sections */
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
